@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shif's Profile</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway&display=swap" rel="stylesheet">
+<style>
+    .profile > img{
+        height: 250px;
+        position: relative;
+        left: 17%;
+    }
+    .commu >img{
+        height: 250px;
+        position: relative;
+        left: 17%;
+    }
+    body{
+        background-color:black;
+    }
+    .commu{
+        background-color:#202120;
+    }
+    .Yt,.WA{
+ width: 9em;
+ height: 3em;
+ border-radius: 30em;
+ font-size: 15px;
+ font-family: inherit;
+ border: none;
+ position: relative;
+ overflow: hidden;
+ z-index: 1;
+ 
+}
+
+
+.Yt,.WA:hover::before {
+ width: 9em;
+}
+.Yt,.WA{
+    position: relative;
+    left: 33%;
+}
+.WA::before {
+ content: '';
+ width: 0;
+ height: 3em;
+ border-radius: 30em;
+ position: absolute;
+ top: 0;
+ left: 0;
+ background-image: linear-gradient(to right, #10f708c4 0%, #30fd02 100%);
+ transition: .5s ease;
+ display: block;
+ z-index: -1;
+}
+
+h1{
+    color: aliceblue;
+}
+.name{
+    font-family: 'Merriweather', serif;
+font-family: 'Raleway', sans-serif;
+    color:slateblue;
+}
+
+h3,p{
+    color: aliceblue;
+}
+#com{
+    color:dodgerblue;
+}
+
+#mail,.linked,.twitter{
+    height: 50px;
+    
+}
+.contact{
+    position: relative;
+    left: 100px;
+}
+footer > p{
+    color: wheat;
+}
+#cool{
+    font-family: 'Bungee Spice', cursive;
+}
+</style>
+
+<body>
+    <div class="profile"><img src="shif-fotor-20230624214145.png" alt="Mohamed Shifan"></div>
+    <h1>Hi! <br>I am <span class="name">Mohamed Shifan</span></h1>
+    <h3>About:</h3>
+    <p>I'm a passionate Python enthusiast and a skilled frontend developer with a mission to make technology accessible to everyone. As the founder of the thriving community <span id="com">Make Tech Simple</span> I'm dedicated to demystifying complex technical concepts and empowering individuals to learn and grow in a comfortable and enjoyable manner.
+    </p>
+        <p>My journey in the world of coding and development began with my deep love for crafting elegant and functional solutions. With a knack for breaking down intricate coding puzzles into easily understandable pieces, I've honed my skills not only as a developer but also as an exceptional teacher.</p>
+        <h1>Join Our Community</h1>
+        <div class="commu"><img src="MTS-removebg-preview.png" alt=""><a href="https://chat.whatsapp.com/HGV6g5cfDTpBhGK7DYvD11"><button class="WA">
+            Whatsapp
+        </button></a></div>
+        
+        <BR></BR>
+        <hr>
+        <div class="contact">
+            <a href="#"><img class="twitter" src="social-media-twitter-logo-blue-isolated-free-vector-removebg-preview.png" alt=""></a>
+            <a href="mailto:mts.shif.sh@gmail.com"><img id="mail" src="mail-removebg-preview.png" alt="gmail"></a>
+            <a href="https://www.linkedin.com/in/mohamed-shifan-1650b9230/"><img class="linked" src="linked-removebg-preview.png" alt="linkedin"></a>
+        </div>
+        <footer>
+            <p>This Site is designed By Shif <span id="cool">10</span></p>
+            
+        </footer>
+</body>
+</html>
